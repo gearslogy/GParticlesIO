@@ -1,8 +1,14 @@
-# GParticlesIO
-THIS GIO BY Gearslogy
-www.fxrock.com
-Email:liuyangping207@qq.com
-This GIO Can transfer particles data in several 3d applications.
+#GParticlesIO
+	1,THIS GIO BY Gearslogy
+    2,www.fxrock.com
+    3,Email:liuyangping207@qq.com
+
+#can Do:
+    1,This GIO can transfer particles data in several 3d applications.
+        examples:
+        (1)Export Houdini Particles --> IntoDisk --> named .gp cache format
+        (2)Arnold Load The cache --> FromDisk --> get the attribute and render it
+
 #demos:
     1,houdini load and save data demo (Houdini_SRC),this demo can write all the Houdini point attributes into local disk.and load it
     back !
