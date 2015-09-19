@@ -1,10 +1,11 @@
 #GParticlesIO
-	1,THIS GIO BY Gearslogy
-    2,www.fxrock.com
-    3,Email:liuyangping207@qq.com
+    THIS GIO BY Gearslogy
+    www.fxrock.com
+    Email:liuyangping207@qq.com
 
-#can Do:
-    1,This GIO can transfer particles data in several 3d applications.
+
+#can do:
+    This GIO can transfer particles data in several 3d applications.
         examples:
         (1)Export Houdini Particles --> IntoDisk --> named .gp cache format
         (2)Arnold Load The cache --> FromDisk --> get the attribute and render it
