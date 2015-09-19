@@ -1,0 +1,11 @@
+procedural
+{
+ name myrandflake
+ dso "C:/solidangle/mtoadeploy/2014/procedurals/GIO_Load_proc.dll"
+ min -10.05 -10.05 -10.05
+ max 10.05 10.05 10.05
+ declare GIO_loadPath constant STRING
+ declare GIO_radius constant FLOAT
+ GIO_loadPath "C:/Users/Administrator/Desktop/gp_cache/gpcache.0073.gp"
+ GIO_radius 1
+}
