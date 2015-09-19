@@ -244,7 +244,7 @@ void wendy_GIO_ROP::save_mata_ass(string arDsoPath,string dpCachePath,GU_Detail 
 		sp_strPath.push_back(sub_str);
 	}
 
-	string newAssPathName = sp_strPath[0]+sp_strPath[1]+string(".ass");
+	string newAssPathName = sp_strPath[0]+"."+sp_strPath[1]+string(".ass");
 	fout.open(newAssPathName);
 	assROP.setGioCachePath(getCacheDP);  // set Link GIO CACHE
 	for (GA_AttributeDict::iterator it = gdp->getAttributeDict(GA_ATTRIB_POINT).begin(GA_SCOPE_PUBLIC); !it.atEnd(); ++it)
@@ -296,7 +296,7 @@ ROP_RENDER_CODE wendy_GIO_ROP::renderFrame( fpreal time, UT_Interrupt *boss )
 	UT_String _ar_dso_path;
 	evalString(_ar_dso_path,"ArDso",0,time);
 
-	save_gdp_to_disk(save_geo_path,context,save_geo_path);
+	save_gdp_to_disk(_ar_dso_path,context,save_geo_path);
 	
 	
 
