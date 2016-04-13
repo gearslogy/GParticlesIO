@@ -1,6 +1,6 @@
 #GParticlesIO
     THIS GIO BY Gearslogy
-    www.fxrock.com
+    http://blog.sina.com.cn/cgnuke
     Email:liuyangping207@qq.com
 
 
