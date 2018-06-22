@@ -16,3 +16,11 @@
 
 * limitations:
 	Current do not support the matrix attribute.
+	
+
+* Houdini ROP/Load:
+![image](https://raw.githubusercontent.com/gearslogy/GParticlesIO/master/HoudiniGIO.jpg)
+
+
+* Arnold
+![image](https://raw.githubusercontent.com/gearslogy/GParticlesIO/master/Anold_Gio.jpg)
